@@ -1,0 +1,13 @@
+invoice_id,customer,region,invoice_date,revenue,outstanding_balance
+INV-1001,Northstar Telecom,North,2025-11-03,12500,1200
+INV-1002,Blue Peak Ltd,South,2025-11-05,8400,2400
+INV-1003,Orchid Systems,West,2025-11-08,15200,900
+INV-1004,Northstar Telecom,North,2025-11-14,9300,1800
+INV-1005,Blue Peak Ltd,South,2025-11-19,11100,3100
+INV-1006,Maple Services,East,2025-11-22,6700,500
+INV-1007,Orchid Systems,West,2025-12-02,14200,1100
+INV-1008,Maple Services,East,2025-12-11,7200,300
+INV-1009,Northstar Telecom,North,2025-12-17,10100,700
+INV-1010,Blue Peak Ltd,South,2025-12-21,9500,2600
+INV-1011,Maple Services,East,2026-01-04,8100,400
+INV-1012,Orchid Systems,West,2026-01-16,16400,800
