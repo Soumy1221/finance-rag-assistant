@@ -1,6 +1,6 @@
-# Enterprise Finance RAG Assistant
+# Finance RAG Assistant
 
-Portfolio project: document Q&A using Retrieval-Augmented Generation (RAG), plus deterministic financial analytics. All data is synthetic.
+Project: document Q&A using Retrieval-Augmented Generation (RAG), plus deterministic financial analytics. All data is synthetic.
 
 ## Features
 - Ingest PDF, TXT, Markdown and CSV files.
@@ -54,7 +54,7 @@ Tests:
 pytest -q
 ```
 
-## Try these questions
+## Some Questions We can ask 
 - What is the invoice dispute process?
 - How long are standard payment terms?
 - What is the customer disconnection policy?
@@ -63,18 +63,3 @@ pytest -q
 
 ## Design notes
 RAG does not train or update LLM weights. It retrieves relevant document chunks at question time. Exact numeric calculations are handled by Pandas, not semantic vector search. Retrieved documents are treated as untrusted context. For production, add authentication, tenant isolation, encryption, rate limiting, monitoring, and stronger evaluation.
-
-## GitHub publishing
-Create a public repository named `enterprise-finance-rag-assistant`, then:
-```bash
-git init
-git add .
-git commit -m "Build enterprise finance RAG assistant"
-git branch -M main
-git remote add origin https://github.com/<your-username>/enterprise-finance-rag-assistant.git
-git push -u origin main
-```
-Never commit `.env`, API keys, credentials, or private company data.
-
-## Portfolio summary
-Built an enterprise-style Finance AI Assistant combining RAG document Q&A with deterministic financial analytics. Implemented document ingestion, chunking, local semantic embeddings, Chroma vector search, grounded LLM responses with source citations, file uploads, Streamlit UI, FastAPI endpoints and automated tests using synthetic data.
